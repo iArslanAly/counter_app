@@ -1,4 +1,9 @@
 //document.getElementById("count").innerText = 5
-let count = 0;
-count=0+1;
-console.log(count)
+let countVariable = document.getElementById("countVar")
+console.log(countVariable)
+let count = 0
+function increment() {
+    count = count + 1
+    countVariable.innerText = count
+    console.log(count )
+}
